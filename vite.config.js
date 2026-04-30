@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // GitHub Pages deploys to https://<user>.github.io/<repo>/
-  // Update 'zenithflow' to match your actual GitHub repo name
-  base: '/zenithflow/',
+  // Vercel serves from root
+  base: '/',
 
   build: {
     // Minify aggressively to make code harder to read
