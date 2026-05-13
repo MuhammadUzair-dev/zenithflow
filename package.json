@@ -1,8 +1,11 @@
 {
-  "name": "new-project",
-  "version": "0.0.0",
+  "name": "zenithflow",
+  "version": "1.0.0",
+  "description": "AI-Agentic Personal Skill Architect — Build personalized 4-week learning roadmaps with intelligent agents.",
   "private": true,
   "type": "module",
+  "author": "Muhammad Uzair",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
