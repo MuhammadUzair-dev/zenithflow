@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Vercel serves from root
-  base: '/',
+  // GitHub Pages serves from /zenithflow/ subpath
+  base: '/zenithflow/',
 
   build: {
     // Minify aggressively to make code harder to read
